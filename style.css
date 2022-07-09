@@ -13,22 +13,22 @@
 .centralizar{
     align-items: center;
     display: flex;
-    justify-content: center;
 }
 
 header{
-    align-items: center;
     background-color: #4a768c;
-    display: flex;
     justify-content: space-between;
     height: 4em;
     width: 100%
 }
 
+.container-local{
+    justify-content: center;
+}
+
 .container-local input{
     border: none;
     border-radius: 15px;
-    flex: 1;
     font-size: 0.8em;
     font-weight: 400;
     padding: 7px 2px;
@@ -145,4 +145,11 @@ main{
     font-size: 1em;
     margin-top: 0.9em;
     opacity: 0.8;
+}
+
+@media screen and (max-width: 480px) {
+    .container-horario, .container-local{
+        margin: 0 1em;
+    }
+    
 }
