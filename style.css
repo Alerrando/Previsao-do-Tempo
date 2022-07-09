@@ -151,5 +151,34 @@ main{
     .container-horario, .container-local{
         margin: 0 1em;
     }
-    
+
+    main{
+        flex-direction: column;
+    }
+
+    .main{
+        height: 72vh;
+        width: 100%;
+    }
+
+    .main-info h1{
+        font-size: 1.3em;
+    }
+
+    .long-lat{
+        font-size: 1em;
+    }
+
+    .info-complementar{
+        margin: 80% 0 0 2%;
+    }
+
+    .temperatura{
+        font-size: 2em;
+    }
+
+    .infos{
+        height: 25vh;
+        width: 100%;
+    }
 }

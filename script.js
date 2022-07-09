@@ -27,9 +27,9 @@ document.addEventListener("keydown", function(e){
 window.addEventListener('load', () => {
     localStorage.clear();
 
-    if(date.getHours() > 5 && date.getHours() < 12)
+    if(date.getHours() > 5 && date.getHours() <= 12)
         main.style.background = 'url("https://images.unsplash.com/photo-1603299515818-82b7e687a789?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80") no-repeat'
-    else if(date.getHours() > 12 && date.getHours() < 18)
+    else if(date.getHours() > 12 && date.getHours() <= 18)
         main.style.background = 'url("https://images.pexels.com/photos/161963/chicago-illinois-skyline-skyscrapers-161963.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat';
     else
         main.style.background = 'url("https://images.pexels.com/photos/631477/pexels-photo-631477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat'
