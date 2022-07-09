@@ -1,17 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/phosphor-icons"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Weatherstack</title>
+    <title>Previsão do Tempo</title>
 </head>
 <body>
     <header>
-        <input type="text" name="" id="local">
-        <i class="ph-magnifying-glass-bold"></i>
+        <div class="container-local centralizar">
+            <input type="text" name="local" id="local">
+            <i class="ph-magnifying-glass-bold" onclick="dadosMetereologicos()"></i>
+        </div>
+
+        <div class="container-horario">
+            <span></span>
+        </div>
     </header>
+
+    <main>
+        <div class="main">
+            <div class="main-info">
+                <h1 class="cidade-estado"></h1>
+                <h2 class="long-lat"></h2>
+
+                <div class="info-complementar centralizar w-h-100">
+                    <h2 class="temperatura"></h2>
+                    <div class="info-data">
+                        <h2 class="diaSemana"></h2>
+                        <h2 class="data"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="infos">
+            <div class="container-info">
+                <div class="barra"></div>
+
+                <div class="info-metereologico">
+                    <h2>Detalhes Metereologico</h2>
+                </div>
+
+                <div class="barra"></div>
+            </div>
+
+        </div>
+    </main>
 
 
     <script src="script.js"></script>

@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+:root{
+    --color-dark: #000;
+    --color-white: #fff;
+}
+
+.centralizar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    align-items: center;
+    background-color: #4a768c;
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+    width: 100%
+}
+
+.container-local input{
+    border: none;
+    border-radius: 15px;
+    flex: 1;
+    font-size: 0.8em;
+    font-weight: 400;
+    padding: 7px 2px;
+    outline: none;
+}
+
+.container-local i{
+    cursor: pointer;
+    font-size: 1.3em;
+    margin-left: 0.4em;
+}
+
+.container-horario span{
+    font-family: "Glory", sans-serif;
+    font-size: 1.4em;
+}
+
+.container-horario, .container-local{
+    margin: 0 8em;
+}
+
+main{
+    display: flex;
+}
+
+.main{
+    height: 90.6vh;
+    width: 75%;
+}
+
+.main-info{
+    z-index: 100;
+}
+
+.cidade-estado{
+    margin: 2% 0 0 2%;
+}
+
+.cidade-estado, .long-lat, .container-horario span, .info-metereologico h2, .info-metereologico li{
+    color: var(--color-white);
+}
+
+.temperatura, .info-complementar{
+    color: var(--color-dark);
+}
+
+.long-lat{
+    margin: 1% 0 0 2%;
+}
+
+.info-complementar{
+    justify-content: left;
+    margin: 31% 0 0 2%;
+}
+
+.temperatura{
+    font-size: 3em;
+}
+
+
+.info-data{
+    display: block;
+    margin-left: 3%;
+}
+
+.container-tempo{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 2%;
+}
+
+.container-tempo i{
+    font-size: 1.5em;
+    margin-bottom: 3px;
+}
+
+.data, .tempoD{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.infos{
+    align-items: center;
+    background-color: #607d8b;
+    display: flex;
+    justify-content: center;
+    height: 90.6vh;
+    width: 25%;
+}
+
+.cidades, .info-metereologico{
+    margin-left: 2em;
+}
+
+.barra{
+    background-color: var(--color-white);
+    height: 2px;
+    margin-left: 2em;
+    margin-top: 10%;
+    width: 83%;
+}
+
+.info-metereologico{
+    outline-offset: 4px;
+    margin-top: 10%;
+}
+
+.info-metereologico h2{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.info-metereologico li{
+    font-size: 1em;
+    margin-top: 0.9em;
+    opacity: 0.8;
+}
