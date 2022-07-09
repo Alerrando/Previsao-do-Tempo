@@ -74,6 +74,7 @@ function dadosMetereologicos(){
 }
 
 function addInfosDate(){
+    horario.innerHTML = "";
     var diaSemana = ["Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado", "Domingo"];
     let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro","Outubro", "Novembro", "Dezembro"];
 
