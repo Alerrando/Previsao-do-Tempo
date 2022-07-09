@@ -134,6 +134,7 @@ function DescricaoTempo(div, descricao, tempo){
     else if(tempo == "Rain")
     {
         main.style.background = 'url("https://images.unsplash.com/photo-1558409057-bbe679023136?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1037&q=80") no-repeat'
+        infoComplementar.style.color = "var(--color-white)"
         div.innerHTML += '<i class="ph-cloud-rain-bold"></i>'
     }
 

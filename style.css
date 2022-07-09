@@ -71,7 +71,7 @@ main{
     color: var(--color-white);
 }
 
-.temperatura, .info-complementar{
+.info-complementar{
     color: var(--color-dark);
 }
 
@@ -178,7 +178,12 @@ main{
     }
 
     .infos{
-        height: 25vh;
+        height: 53vh;
+        justify-content: start;
         width: 100%;
+    }
+
+    .barra:nth-child(1){
+        display: none;
     }
 }
